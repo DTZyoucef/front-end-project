@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(red, white);
+    background: #fff;
 }
 .header{
     position: absolute;
@@ -36,7 +36,7 @@
 }
 .header ul li a{
     display: inline-block;
-    color: white;
+    color: #333;
     font-weight: 900;
     margin-left: 40px;
     text-decoration: none;
@@ -44,8 +44,8 @@
     border-radius: 10px;
 }
 .header ul li a:hover{
-    color: red;
-    background: #333;
+    color: #fff;
+    background: #017143;
 }
 .contente{
     position: relative;
@@ -68,11 +68,9 @@
 
 }
 .contente .titre h2 span{
-    color: white; 
-    font-size: 1.2em;
+    color: #017143; 
+    font-size: 1.4em;
     font-weight: 1000px;
-    font-family: cursive;
-    font-style: italic;
 }
 .contente .titre p{
     color: #333;
@@ -82,8 +80,8 @@
 display: inline-block;
 margin-top: 30px;
 padding: 8px 20px;
-background: #333;
-color: white;
+background: #017143;
+color: #fff;
 border-radius: 40px;
 font-weight: 500;
 letter-spacing: 1px;
@@ -94,10 +92,7 @@ text-decoration: none;
     justify-content: flex-end;
     padding-top: 0px;
     padding-right: 50px;
-    transform: translateY(-100px) rotate(-20deg);
-}
-.cap img{
-    filter: drop-shadow(5px 5px 30px white);
+    transform: translateY(-70px) rotate(-20deg);
 }
 .cercle{
     position: absolute;
@@ -105,6 +100,6 @@ text-decoration: none;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #333;
+    background: #017143;
     clip-path: circle(600px at right 800px);
 }
